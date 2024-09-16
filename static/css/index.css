@@ -155,3 +155,11 @@ body {
 #interpolation-image-wrapper img {
   border-radius: 5px;
 }
+.small-sup {
+  font-size: smaller; /* 使上标更小 */
+}
+
+.corresponding-author {
+  font-size: smaller; /* 使通讯作者的符号更小 */
+  vertical-align: super; /* 确保符号位于文字上方 */
+}
